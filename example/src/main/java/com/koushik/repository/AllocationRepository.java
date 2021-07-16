@@ -1,10 +1,10 @@
-package com.vikash.repository;
+package com.koushik.repository;
 
 import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.vikash.modal.Allocation;
+import com.koushik.modal.Allocation;
 
 public interface AllocationRepository extends CrudRepository<Allocation,Integer> {
 

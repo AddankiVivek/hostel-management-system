@@ -1,16 +1,16 @@
-package com.vikash;
+package com.koushik;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.vikash.modal.Allocation;
-import com.vikash.modal.User;
-import com.vikash.repository.AllocationRepository;
-import com.vikash.repository.UserRepository;
-import com.vikash.services.AllocationService;
-import com.vikash.services.UserService;
+import com.koushik.modal.Allocation;
+import com.koushik.modal.User;
+import com.koushik.repository.AllocationRepository;
+import com.koushik.repository.UserRepository;
+import com.koushik.services.AllocationService;
+import com.koushik.services.UserService;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;

@@ -1,4 +1,4 @@
-package com.vikash.services;
+package com.koushik.services;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -9,8 +9,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vikash.modal.User;
-import com.vikash.repository.UserRepository;
+import com.koushik.modal.User;
+import com.koushik.repository.UserRepository;
 
 @Service
 @Transactional

@@ -1,4 +1,4 @@
-package com.vikash.modal;
+package com.koushik.modal;
 
 import java.util.Date;
 import javax.persistence.*;

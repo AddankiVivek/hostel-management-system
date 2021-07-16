@@ -1,4 +1,4 @@
-package com.vikash.services;
+package com.koushik.services;
 
 import java.sql.SQLIntegrityConstraintViolationException;
 import java.util.ArrayList;
@@ -12,8 +12,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.vikash.modal.Allocation;
-import com.vikash.repository.AllocationRepository;
+import com.koushik.modal.Allocation;
+import com.koushik.repository.AllocationRepository;
 
 @Service
 @Transactional(rollbackOn=SQLIntegrityConstraintViolationException.class)

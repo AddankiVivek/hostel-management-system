@@ -1,5 +1,5 @@
 
-package com.vikash.controller;
+package com.koushik.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.vikash.services.AllocationService;
-import com.vikash.services.UserService;
+import com.koushik.services.AllocationService;
+import com.koushik.services.UserService;
 
 @ControllerAdvice
 public class GlobalHandling {

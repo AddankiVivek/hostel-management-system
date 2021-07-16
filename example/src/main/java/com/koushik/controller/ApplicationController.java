@@ -1,4 +1,4 @@
-package com.vikash.controller;
+package com.koushik.controller;
 
 
 import java.text.ParseException;
@@ -19,10 +19,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.vikash.modal.Allocation;
-import com.vikash.modal.User;
-import com.vikash.services.AllocationService;
-import com.vikash.services.UserService;
+import com.koushik.modal.Allocation;
+import com.koushik.modal.User;
+import com.koushik.services.AllocationService;
+import com.koushik.services.UserService;
 
 @RestController
 public class ApplicationController {

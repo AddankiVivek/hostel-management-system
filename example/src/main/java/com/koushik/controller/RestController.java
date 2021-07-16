@@ -1,4 +1,4 @@
-package com.vikash.controller;
+package com.koushik.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import java.io.File;
@@ -17,8 +17,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.vikash.modal.User;
-import com.vikash.repository.UserRepository;
+import com.koushik.modal.User;
+import com.koushik.repository.UserRepository;
 
 /*import org.springframework.web.bind.annotation.RequestParam;
 
